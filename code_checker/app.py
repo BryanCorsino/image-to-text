@@ -17,6 +17,7 @@ from werkzeug.utils import secure_filename
 from werkzeug.urls import url_parse
 import logging
 from dotenv import load_dotenv
+import streamlit
 
 # Load environment variables
 load_dotenv()
@@ -1159,4 +1160,5 @@ if __name__ == '__main__':
         print("\n⚠️  Warning: Google OAuth credentials not found in .env file")
         print("Local registration only is available.\n")
     
+
     app.run(debug=True, host='0.0.0.0', port=5000)
