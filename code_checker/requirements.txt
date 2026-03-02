@@ -12,6 +12,7 @@ Flask-Login==0.6.2
 Flask-SQLAlchemy==3.0.5
 authlib==1.2.1
 requests==2.31.0
-Werkzeug==2.3.7
+Werkzeug==3.0.0
 streamlit==1.28.0
+
 pandas==2.0.3
